@@ -1,11 +1,10 @@
 package main
 
 import (
+	"Golang_learning/TGPL/CH2/tempconv"
 	"fmt"
 	"os"
 	"strconv"
-
-	"Golang_learning/TGPL/CH2_ProgramStructure/tempconv"
 )
 
 func main() {
