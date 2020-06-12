@@ -8,7 +8,7 @@ func main() {
 	Q2 := months[4:7]
 	summer := months[6:9]
 	fmt.Println(Q2)
-	fmt.Println(summer)
+	fmt.Println(summer)		//[June July Aug]
 	for _, s := range summer{
 		for _, q := range Q2 {
 			if s == q {
