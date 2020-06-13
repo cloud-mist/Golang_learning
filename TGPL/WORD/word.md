@@ -8,3 +8,4 @@
 |fraction|n.小部分 |
 |exhaustive |adj.详尽的|
 |reference|n.参考; v.查阅|
+|crucial|adj.关键的|
