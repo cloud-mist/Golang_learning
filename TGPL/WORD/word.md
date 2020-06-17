@@ -9,3 +9,5 @@
 |exhaustive |adj.详尽的|
 |reference|n.参考; v.查阅|
 |crucial|adj.关键的|
+|distinct|adj.不同的|
+|implement|n.工具|
