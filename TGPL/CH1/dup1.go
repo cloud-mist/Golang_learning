@@ -3,11 +3,12 @@
 
 package main
 
-import(
+import (
 	"bufio"
 	"fmt"
 	"os"
 )
+
 //bufio处理输入和输出    Scanner读取输入并将其拆成行或者单词；处理行输入最简单的办法
 func main(){
 	counts := make(map[string]int)

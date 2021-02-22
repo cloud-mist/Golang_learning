@@ -10,5 +10,5 @@ func main() {
 	// time包的Time类型，每一个time.Time值有一个返回年份的Year方法
 	var now time.Time = time.Now()
 	var year int = now.Year()
-	fmt.Println(year)	// 2021
+	fmt.Println(year) // 2021
 }

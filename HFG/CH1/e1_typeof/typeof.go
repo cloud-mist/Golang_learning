@@ -14,11 +14,9 @@ func main() {
 	fmt.Println(reflect.TypeOf("hello world"))
 }
 
-
 /*
  int
  float64
  bool
  string
 */
-
