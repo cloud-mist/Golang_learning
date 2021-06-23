@@ -1,13 +1,12 @@
 // 非递归版本
 
-package main
+package commas10
 
 import (
 	"bytes"
-	"fmt"
 )
 
-func comma(s string) string {
+func comma1(s string) string {
 	n := len(s)
 	start := n % 3
 	var res bytes.Buffer
@@ -28,9 +27,4 @@ func comma(s string) string {
 	} else {
 		return res.String()
 	}
-}
-
-func main() {
-	s := "123456789012345"
-	fmt.Println(comma(s))
 }
