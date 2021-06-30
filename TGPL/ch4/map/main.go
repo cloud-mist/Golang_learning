@@ -26,13 +26,14 @@ func main() {
 	// 4.1 简单遍历
 	for k, v := range m1 {
 		fmt.Println(k, v)
-		// xm 20
-		// tstts 1
+		/*
+			xm 20
+			tstts 1
+		*/
 	}
 	fmt.Println("-------------------------------")
 
 	// 4.2 按名字顺序遍历,
-
 	var names []string
 	for k := range m1 {
 		names = append(names, k)
@@ -42,8 +43,10 @@ func main() {
 	sort.Strings(names)
 	for _, name := range names {
 		fmt.Println(name, m1[name])
+		/*
+			tstts 1
+			xm 20
+		*/
 	}
-	// tstts 1
-	// xm 20
 
 }
